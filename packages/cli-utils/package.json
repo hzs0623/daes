@@ -1,0 +1,22 @@
+{
+  "name": "cli-utils",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "Daes <810203055@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/cli-utils.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
+}
