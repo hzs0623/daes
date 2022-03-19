@@ -6,5 +6,8 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "workspaces": [
+    "packages/@daes/*"
+  ]
 }
