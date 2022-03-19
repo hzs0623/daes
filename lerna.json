@@ -1,6 +1,6 @@
 {
   "packages": [
-    "packages/*"
+    "packages/@daes/*"
   ],
   "version": "0.0.1"
 }
