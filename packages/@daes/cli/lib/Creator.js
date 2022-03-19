@@ -1,5 +1,6 @@
 const Prompt = require('./Prompt.js')
 const inquirer = require('inquirer')
+const { chalk } = require('@daes/cli-utils')
 
 class Creator {
   constructor(name, dir, modules) {
@@ -16,6 +17,7 @@ class Creator {
   async create(options) {
     const { answers, preset } = await this.promptResolvePreset()
 
+    console.log(chalk.red('123'))
 
     
   }
