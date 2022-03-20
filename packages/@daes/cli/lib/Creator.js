@@ -6,10 +6,10 @@ class Creator {
   constructor(name, dir, modules) {
     this.projectName = name
     this.dir = dir
-    
+
     const { featurePrompt } = this.resolveIntroPrompts()
-    this.promptCompleteCbs = []         // 插件包文件参数
-    this.featurePrompt = featurePrompt  // 选项集合
+    this.promptCompleteCbs = [] // 插件包文件参数
+    this.featurePrompt = featurePrompt // 选项集合
     const prompt = new Prompt(this)
     modules.forEach(m => m(prompt))
   }
@@ -18,8 +18,6 @@ class Creator {
     const { answers, preset } = await this.promptResolvePreset()
 
     console.log(chalk.red('123'))
-
-    
   }
 
   async promptResolvePreset() {
@@ -30,7 +28,7 @@ class Creator {
 
     // 触发所有包名回调
     this.promptCompleteCbs.forEach(cb => cb(answers, preset))
-    
+
     return { answers, preset }
   }
 
@@ -40,11 +38,10 @@ class Creator {
       type: 'checkbox',
       message: 'Check the features needed for your project:',
       choices: [],
-      pageSize: 10
+      pageSize: 10,
     }
-    return { featurePrompt } 
+    return { featurePrompt }
   }
 }
-
 
 module.exports = Creator
