@@ -1,5 +1,5 @@
 15 error Error: Command failed with exit code 1: git remote update
-15 error fatal: unable to access 'https://github.com/hzs0623/daes.git/': OpenSSL SSL_read: Connection was aborted, errno 10053
+15 error fatal: unable to access 'https://github.com/hzs0623/daes.git/': Failed to connect to github.com port 443 after 21027 ms: Timed out
 15 error error: could not fetch origin
 15 error Fetching origin
 15 error     at makeError (C:\Users\daes6\Desktop\3.15student\daes\node_modules\execa\lib\error.js:60:11)
