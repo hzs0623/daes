@@ -18,6 +18,9 @@
     "lib": "lib",
     "test": "__tests__"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "lib"
   ],
@@ -32,5 +35,5 @@
     "jest": "^27.5.1",
     "minimist": "^1.2.5"
   },
-  "gitHead": "b505ded64fd7f1d6e25fb54642d1d42d1baf6d1f"
+  "gitHead": "1975c45f2b64882f011730274d8e72acbfaf1693"
 }

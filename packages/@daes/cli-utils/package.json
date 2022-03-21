@@ -10,6 +10,9 @@
     "lib": "lib",
     "test": "__tests__"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "lib"
   ],
@@ -23,5 +26,5 @@
     "read-pkg": "^5.1.1",
     "semver": "^7.3.4"
   },
-  "gitHead": "b505ded64fd7f1d6e25fb54642d1d42d1baf6d1f"
+  "gitHead": "1975c45f2b64882f011730274d8e72acbfaf1693"
 }
