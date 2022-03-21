@@ -1,11 +1,11 @@
-# `cli-utils`
-
+# `Daes/cli-utils`
+🛠️ daes-based tooling for js Development
 > TODO: description
 
 ## Usage
 
-```
-const cliUtils = require('cli-utils');
+```js
+const { chalk, resolvePkg, hasGit, execa } = require('@daes/cli-utils')
 
 // TODO: DEMONSTRATE API
 ```

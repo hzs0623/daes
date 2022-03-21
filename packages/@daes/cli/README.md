@@ -3,10 +3,13 @@
 
 ## Daes CLI  ![issues](https://img.shields.io/github/issues/hzs0623/daes/@daes/cli) ![license](https://img.shields.io/github/license/hzs0623/daes) ![twitter](https://img.shields.io/twitter/url?url=https://github.com/hzs0623/daes/edit/master/packages/@daes/cli)
 
-### daes 
-运行命令 `daes` 能看见帮助信息 `help`
+### 查看帮助
+终端运行命令 `daes` 能看见帮助信息
+```
+daes
+```
 
-### 安装
+### 全局安装
 ```
   npm install -g @daes/cli
 ```

@@ -5,7 +5,7 @@ module.exports = cli => {
     name: 'Typescript',
     value: 'typescript',
     description: '项目中是否使用ts写法',
-    checked: true,
+    checked: false,
   })
 
   // 添加包
@@ -29,9 +29,7 @@ module.exports = cli => {
       content: dedent` 
       {
         "compilerOptions": {
-          "lib": [
-            "es6"
-          ],
+          "lib": [ "dom", "es5", "es2015.promise" ,"es2015", "es2017"],
           "module": "ESNext",
           "allowJs": true
         },
