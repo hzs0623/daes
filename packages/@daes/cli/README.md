@@ -1,7 +1,7 @@
 # Daes
 🛠️ daes-based tooling for js Development
 
-## Daes CLI  ![issues](https://img.shields.io/github/issues/hzs0623/daes/@daes/cli) ![license](https://img.shields.io/github/license/hzs0623/daes/@daes/cli) ![twitter](https://img.shields.io/twitter/url?url=https://github.com/hzs0623/daes/edit/master/packages/@daes/cli)
+## Daes CLI  ![issues](https://img.shields.io/github/issues/hzs0623/daes/@daes/cli) ![license](https://img.shields.io/github/license/hzs0623/daes) ![twitter](https://img.shields.io/twitter/url?url=https://github.com/hzs0623/daes/edit/master/packages/@daes/cli)
 
 ### daes 
 运行命令 `daes` 能看见帮助信息 `help`
