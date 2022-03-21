@@ -1,6 +1,6 @@
 {
   "name": "@daes/cli-utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "> TODO: description",
   "author": "Daes <810203055@qq.com>",
   "homepage": "",
@@ -20,7 +20,7 @@
     "chalk": "^4.1.2",
     "execa": "^1.0.0",
     "jest": "^27.5.1",
-    "semver": "^7.3.4",
-    "read-pkg": "^5.1.1"
+    "read-pkg": "^5.1.1",
+    "semver": "^7.3.4"
   }
 }
