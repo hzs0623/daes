@@ -31,5 +31,6 @@
     "inquirer": "^8.2.1",
     "jest": "^27.5.1",
     "minimist": "^1.2.5"
-  }
+  },
+  "gitHead": "b505ded64fd7f1d6e25fb54642d1d42d1baf6d1f"
 }

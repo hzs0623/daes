@@ -22,5 +22,6 @@
     "jest": "^27.5.1",
     "read-pkg": "^5.1.1",
     "semver": "^7.3.4"
-  }
+  },
+  "gitHead": "b505ded64fd7f1d6e25fb54642d1d42d1baf6d1f"
 }
