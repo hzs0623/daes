@@ -8,5 +8,6 @@
     "bootstrap": {
       "hoist": true
     }
-  }
+  },
+  "useWorkspaces": true
 }

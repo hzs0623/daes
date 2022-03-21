@@ -12,9 +12,7 @@ function writeRollup(answers, files) {
 
   if (features.includes('babel')) {
     generate.push(`import babel from 'rollup-plugin-babel'`)
-    plugins.push(`babel({
-      exclude: 'node_modules/**', // 不编译当前文件下内容 
-    })`)
+    plugins.push(`babel({ exclude: 'node_modules/**' })`)
   }
 
   if (features.includes('css')) {
