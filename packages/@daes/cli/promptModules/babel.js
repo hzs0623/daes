@@ -1,3 +1,5 @@
+const dedent = require('dedent')
+
 module.exports = (cli) => {
   cli.addOption({
     name: 'Babel',
@@ -15,5 +17,26 @@ module.exports = (cli) => {
         "rollup-plugin-babel": { version: "^4.4.0" },
       }
     }
+  })
+
+  // 开发文件
+  cli.addFile((answers, files = []) => {
+    if (!answers.features.includes('babel')) return
+
+    files.push({
+      // dir: '',  // 创建路径
+      fileName: '.babelrc',
+      content: dedent`{
+        "presets": [
+          [
+            "@babel/env",
+            {
+              "modules": false // 设置为false,否则babel会在rollup有机会执行其操作之前导致我们的模块转化为commonjs
+            }
+          ]
+        ]
+      }
+      `
+    })
   })
 }

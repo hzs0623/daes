@@ -1,0 +1,15 @@
+{
+  "name": "aad",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "rollup --config"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "@babel/core": "^7.17.7",
+    "@babel/preset-env": "^7.16.11",
+    "rollup-plugin-babel": "^4.4.0"
+  }
+}

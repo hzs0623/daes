@@ -4,10 +4,11 @@ const inquirer = require('inquirer')
 const Creator = require('./Creator')
 const { getPromptModules } = require('./createTool')
 
-async function create(name, options) {
-  const isCurrent = name === '.'
-  const cwd = process.cwd() // 当前所在绝对路径
-  const targetDir = isCurrent ? path.relative('../', cwd) : name
+async function create(projectName, options) {
+  const isCurrent = projectName === '.'
+  const cwd = process.cwd()
+  const name = isCurrent ? path.relative('../', cwd) : projectName
+  const targetDir = path.resolve(cwd, projectName || '.')
 
   // 判断当前目录下是否有创建过
   if (fs.existsSync(targetDir)) {

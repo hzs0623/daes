@@ -10,6 +10,10 @@ class Prompt {
   addPackage(fn) {
     this.vm.promptCompleteCbs.push(fn)
   }
+
+  addFile(fn) {
+    this.vm.filePrompt.push(fn)
+  }
 }
 
 module.exports = Prompt

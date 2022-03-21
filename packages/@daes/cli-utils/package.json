@@ -5,7 +5,7 @@
   "author": "Daes <810203055@qq.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/index.js",
+  "main": "index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -20,6 +20,7 @@
     "chalk": "^4.1.2",
     "execa": "^1.0.0",
     "jest": "^27.5.1",
-    "semver": "^7.3.4"
+    "semver": "^7.3.4",
+    "read-pkg": "^5.1.1"
   }
 }
