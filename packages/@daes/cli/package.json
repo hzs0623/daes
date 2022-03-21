@@ -30,6 +30,7 @@
   "dependencies": {
     "@daes/cli-utils": "^0.0.9",
     "commander": "^9.1.0",
+    "execa": "^6.1.0",
     "fs-extra": "^10.0.1",
     "inquirer": "^8.2.1",
     "jest": "^27.5.1",
