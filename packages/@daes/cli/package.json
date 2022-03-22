@@ -1,6 +1,6 @@
 {
   "name": "@daes/cli",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "这是一个打包库的脚手架， 使用rollup进行打包。 主要用于平时写一些js库。支持typescript、babel等配置",
   "author": "Daes <810203055@qq.com>",
   "homepage": "",
