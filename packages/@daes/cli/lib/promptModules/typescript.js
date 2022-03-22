@@ -8,7 +8,7 @@ module.exports = cli => {
     checked: false,
   })
 
-  // 添加包
+  // 添加包文件
   cli.addPackage((answers, options) => {
     if (answers.features.includes('typescript')) {
       Object.assign(options.plugins, {
