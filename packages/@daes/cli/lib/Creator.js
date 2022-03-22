@@ -105,7 +105,7 @@ class Creator {
 
     const deps = Object.keys(preset.plugins)
     deps.forEach(dep => {
-      let { version = 'latest' } = preset.plugins[dep] // 最新版本
+      let { version } = preset.plugins[dep] // 最新版本
       pkg.devDependencies[dep] = version // 添加包进去
     })
 
@@ -115,9 +115,9 @@ class Creator {
   async promptResolvePreset() {
     const answers = await inquirer.prompt([this.featurePrompt])
     const preset = { plugins: {
-      '@rollup/plugin-node-resolve': {version: ''},
-      '@rollup/plugin-commonjs': {version: ''},
-      'rollup-plugin-terser': {version: ''},
+      '@rollup/plugin-node-resolve': {version: '^13.1.3'},
+      '@rollup/plugin-commonjs': {version: '^21.0.2'},
+      'rollup-plugin-terser': {version: '^7.0.2'},
     } } // 对象可以地址引用
     const files = []
     answers.features = answers.features || []
