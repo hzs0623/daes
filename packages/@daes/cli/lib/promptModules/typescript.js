@@ -21,7 +21,7 @@ module.exports = cli => {
 
   // 开发文件
   cli.addFile((answers, files = []) => {
-    if (!answers.features.includes('babel')) return
+    if (!answers.features.includes('typescript')) return
 
     files.push({
       // dir: '',  // 创建路径
