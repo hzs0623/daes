@@ -114,7 +114,11 @@ class Creator {
 
   async promptResolvePreset() {
     const answers = await inquirer.prompt([this.featurePrompt])
-    const preset = { plugins: {} } // 对象可以地址引用
+    const preset = { plugins: {
+      '@rollup/plugin-node-resolve': {version: ''},
+      '@rollup/plugin-commonjs': {version: ''},
+      'rollup-plugin-terser': {version: ''},
+    } } // 对象可以地址引用
     const files = []
     answers.features = answers.features || []
 
