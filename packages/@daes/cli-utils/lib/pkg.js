@@ -6,5 +6,6 @@ exports.resolvePkg = function (context) {
   if (fs.existsSync(path.join(context, 'package.json'))) {
     return readPkg.sync({ cwd: context })  // 读取json 数据返回
   }
+  
   return {}
 }

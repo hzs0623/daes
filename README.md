@@ -1,8 +1,5 @@
 # Daes
 🛠️ daes-based tooling for js Development
-
-## Daes CLI  ![issues](https://img.shields.io/github/issues/hzs0623/rollup-cli) ![license](https://img.shields.io/github/license/hzs0623/rollup-cli)
-
 ### 查看帮助
 终端运行命令 `daes` 能看见帮助信息
 ```
